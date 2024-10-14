@@ -1,2 +1,4 @@
 websockets
 asyncio
+selenium
+webdriver_manager

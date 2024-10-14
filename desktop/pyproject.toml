@@ -4,17 +4,19 @@ build-backend = "hatchling.build"
 
 [project]
 name = "iloveads"
-version = "20241012"
+version = "20241014"
 dependencies = [
-    'asyncio',
-    'websockets'
+	'asyncio',
+	'websockets',
+	'selenium',
+	'webdriver_manager',
 ]
 requires-python = ">=3.8"
 authors = [
-  {name = "ayham-1", email = "me@ayham.xyz"},
+{name = "ayham-1", email = "me@ayham.xyz"},
 ]
 maintainers = [
-  {name = "ayham-1", email = "me@ayham.xyz"},
+{name = "ayham-1", email = "me@ayham.xyz"},
 ]
 description = ""
 readme = "../README.md"
